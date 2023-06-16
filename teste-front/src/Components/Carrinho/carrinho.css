@@ -1,0 +1,93 @@
+.carrinho{
+    position: absolute;
+    background-color: #0F52BA;
+    width: 350px;
+    height: 1029px;
+    position: absolute;
+    margin-left: 993px;
+    margin-top: -25px;
+    z-index: 1;
+    box-shadow: 0 0 1em #041734;
+    position: absolute;
+   display: flex;
+   z-index: 2;
+
+}
+
+.titulo{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+    width: 170px;
+    height: 36px;
+    margin-left: 47px;
+    margin-top: 36px;
+    position: absolute;
+}
+
+.btn-close{
+    color: #fff;
+    background-color: black;
+    font-size: 15px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 25px;
+    position: absolute;
+
+}
+
+.itemCarrinho{
+    position: absolute;
+    background-color: #fff;
+    margin: 40% 5%;
+    width: 85%;
+    height: 70px;
+    border-radius: 5px;
+    display: flex;
+
+
+}
+
+.qtd{
+    width: 50px;
+    position: relative;
+    background-color: aquamarine;
+
+}
+.divQtd{
+
+    
+} 
+.quatidade{
+    width: 30px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+}  
+
+.divMenos{
+    margin-left: -12px;
+    height: 0px;
+    border: none;
+    border-radius: 5px;
+}
+
+input{
+    border-radius: 10px 5pc 5;
+}
+
+.img-carrinho{
+    width: 45px;
+    margin:  5% 2%;
+}
+
+.texto-item{
+    font-size: 12px;
+    word-wrap: break-word;
+    width: 5px;
+    color: black;
+    display: inline;
+    
+}
