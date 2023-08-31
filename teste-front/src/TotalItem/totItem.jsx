@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import {FaShoppingCart} from 'react-icons/fa';
+import React, { useState } from "react";
+import { FaShoppingCart } from 'react-icons/fa';
 import Globais from "../Components/Globais";
 
 
@@ -11,6 +11,7 @@ function TotItem({showCar}){
 const atualizaQnt = ()=>{
     atualizaQnt = Globais.Item.length - 1;
     setAtuQnt(atualizaQnt);
+    console.log("987");
 }
 
 
